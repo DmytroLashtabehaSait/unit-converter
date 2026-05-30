@@ -127,7 +127,7 @@ const Conversion = () => {
             onClick={() => {
               setInputArray((prev) => [
                 ...inputArray,
-                leftInput !== 0 ? leftInput : rightInput,
+                arrayHandlerModeIsLeft ? leftInput : rightInput,
               ]);
             }}
           >
